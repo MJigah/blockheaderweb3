@@ -1,0 +1,8 @@
+[00:00:03.312] Server  LOG     ✓ Ready in 2.6s
+[00:00:15.393] Server  LOG     ○ Compiling / ...
+[00:00:28.992] Server  WARN    ⚠ Cross origin request detected from 10.18.26.109 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:29.315] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:29.520] Browser LOG     Vueable Query Error: Vue app not detected
+[00:00:53.911] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:07.340] Browser LOG     Vueable Query Error: Vue app not detected
