@@ -1,26 +1,14 @@
 {
-  "name": "section-a",
-  "version": "0.1.0",
+  "name": "blockheaderweb3",
   "private": true,
+  "workspaces": [
+    "section-a",
+    "section-b"
+  ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "next": "16.1.1",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.1.1",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "dev:section-a": "npm --workspace section-a run dev",
+    "dev:section-b": "npm --workspace section-b run dev",
+    "build:section-a": "npm --workspace section-a run build",
+    "build:section-b": "npm --workspace section-b run build"
   }
 }
