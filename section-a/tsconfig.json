@@ -25,8 +25,7 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts",
     "**/*.ts",
-    "**/*.tsx",
-    "../section-b/next.config copy.ts"
+    "**/*.tsx"
   ],
   "exclude": ["node_modules"]
 }
