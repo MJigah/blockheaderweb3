@@ -1,0 +1,7 @@
+./.next
+./section-a/.next
+./section-b/.next
+
+./node_modules
+./section-a/node_modules
+./section-b/node_modules
